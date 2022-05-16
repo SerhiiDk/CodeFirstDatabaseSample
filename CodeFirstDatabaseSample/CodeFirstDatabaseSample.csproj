@@ -57,6 +57,18 @@
     <Compile Include="Migrations\202205161044292_InitialCreate.designer.cs">
       <DependentUpon>202205161044292_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202205161118179_AddUrl.cs" />
+    <Compile Include="Migrations\202205161118179_AddUrl.designer.cs">
+      <DependentUpon>202205161118179_AddUrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205161126159_AddUser.cs" />
+    <Compile Include="Migrations\202205161126159_AddUser.designer.cs">
+      <DependentUpon>202205161126159_AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205161155230_ChangeDisplayName.cs" />
+    <Compile Include="Migrations\202205161155230_ChangeDisplayName.designer.cs">
+      <DependentUpon>202205161155230_ChangeDisplayName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,6 +80,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202205161044292_InitialCreate.resx">
       <DependentUpon>202205161044292_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205161118179_AddUrl.resx">
+      <DependentUpon>202205161118179_AddUrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205161126159_AddUser.resx">
+      <DependentUpon>202205161126159_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205161155230_ChangeDisplayName.resx">
+      <DependentUpon>202205161155230_ChangeDisplayName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
